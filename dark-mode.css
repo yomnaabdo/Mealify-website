@@ -23,7 +23,7 @@ body.dark-mode .sun-icon {
     --color-text2:#989292;
 }
 /* Dark mode styles for chef cards */
-/* التعديلات هنا مش شغاله ليه */
+/* retirn to this section for uptade  */
 .Chefs .container-chef .group-cards .card .dark-mode {
     background-color:#252525 ; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); 
