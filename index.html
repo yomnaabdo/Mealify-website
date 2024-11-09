@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./dark-mode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+    <!-- Import Amatic SC from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Mealify</title>
+</head>
+<body>
+    <!-- ------------------------------navbar section-----------------------------------> 
+    <nav>
+        <div class="logo">
+            <h1>Mealify<span>.</span></h1>
+        </div>
+        <div class="menu-links">
+            <a href="#1" class="home-link active">Home</a>
+            <a href="#2">Chefs</a>
+            <a href="#3">Gallery</a>
+            <a href="#4">Contact</a>
+        </div>
+        <div class="mode-icon">
+            <i class="fas fa-moon moon-icon"></i> 
+            <i class="fas fa-sun sun-icon"></i>  
+        </div>
+        <div class="menu-button">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>  
+    
+    
+    
+    <!-- Hidden Menu -->
+    <div class="menu">
+        <i class="fas fa-times close-menu"></i> <!-- X close button -->
+        <a href="#1">Home</a>
+        <a href="#2">Chefs</a>
+        <a href="#3">Gallary</a>
+        <a href="#4">Contact</a>
+    </div>
+    <div class="content">
+    <!--------------------------------header section----------------------------------->
+    <header id="1" class="home">
+        <div class="container">
+            <img src="./images/hero-img.png" alt="food">
+            <div class="content">
+                <h1>Enjoy Your Healthy <br>
+                    Delicious Food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Quis veniam deserunt eius ipsam nemo!</p>
+                        <div class="group-btn">
+                            <button class="book-btn">Book a Table</button>
+                            <button class="video-btn">
+                                <span class="icon-wrapper">
+                                    <i class="fa-solid fa-play"></i>
+                                </span>
+                                Watch a Video
+                            </button>
+                        </div>
+            </div>
+        </div>
+    </header>
+    <!--------------------------------chefs section----------------------------------->
+    <section id="2" class="Chefs">
+        <div class="container-chef">
+            <h1>OUR <span>PROFESSIONAL</span> CHEFS</h1>
+            <div class="group-cards"> <!-- Changed 'groub-cards' to 'group-cards' -->
+                <div class="card">
+                    <div class="image-wrapper"> <!-- New wrapper div -->
+                    <img src="./images/chefs/chefs-1.jpg" alt="chefs-1">
+                    </div>
+                    <div class="text">
+                        <h2>Walter White</h2>
+                        <h3>Master Chef</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga beatae rem corporis! Vitae esse quaerat est nostrum exercitationem quidem minus consequatur! Minima fugit dolores id sequi quidem rem veritatis!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-wrapper"> <!-- New wrapper div -->
+                    <img src="./images/chefs/chefs-2.jpg" alt="chefs-2">
+                    </div>
+                    <div class="text">
+                        <h2>Sarah Johnson</h2>
+                        <h3>Patissier</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga beatae rem corporis! Vitae esse quaerat est nostrum exercitationem quidem minus consequatur! Minima fugit dolores id sequi quidem rem veritatis!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-wrapper"> <!-- New wrapper div -->
+                    <img src="./images/chefs/chefs-3.jpg" alt="chefs-3">
+                    </div>
+                    <div class="text">
+                        <h2>William Anderson</h2>
+                        <h3>Cook</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga beatae rem corporis! Vitae esse quaerat est nostrum exercitationem quidem minus consequatur! Minima fugit dolores id sequi quidem rem veritatis!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--------------------------------gallery section----------------------------------->
+    <section id="3" class="Gallery">
+        <div class="container-gallery">
+            <h1>CHECK <span>OUR GALLERY</span></h1>
+            <div class="groub-photos">
+                <div class="photo">
+                    <img src="./images/gallery/meal-1.jpg" alt="meal-1">
+                    <div class="discrption">
+                        <h2>Pizza</h2>
+                        <p>Hawaiian pizza with ham and pineapple</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="./images//gallery/meal-4.jpg" alt="meal-4">
+                    <div class="discrption">
+                        <h2>Levitation pizza</h2>
+                        <p>Levitation pizza on black background</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="./images//gallery/meal-2.jpg" alt="meal-2">
+                    <div class="discrption">
+                        <h2>Beef steaks</h2>
+                        <p>Tasty beef steaks flying above cast iron grate with fire flames</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="./images//gallery/meal-7.jpg" alt="meal-7">
+                    <div class="discrption">
+                        <h2>Frittata</h2>
+                        <p>Frittata or potato pie in a ceramic plate</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="./images/gallery/meal-3.jpg" alt="meal-3">
+                    <div class="discrption">
+                        <h2>Burger</h2>
+                        <p>grass fed bison hamburger with chips & beer</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="./images//gallery//meal-5.jpg" alt="meal-5">
+                    <div class="discrption">
+                        <h2>Crispy Fried Chicken</h2>
+                        <p>Golden brown chicken legs with a crunchy coating and juicy meat</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="./images/gallery/meal-6.jpg" alt="meal-6">
+                    <div class="discrption">
+                        <h2>Lyulya kebab</h2>
+                        <p>Tender and juicy skewers of ground lamb or beef, flavored with aromatic spices and herbs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------contact section----------------------------------->
+    <section id="4" class="Contact">
+        <div class="container-contact">
+            <h1>NEED HELP ?<span>CONTACT US</span></h1>
+    
+            <!-- Map section -->
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9784030511587!2d-74.00601558459462!3d40.712776179328195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316f4b0d8d%3A0x78d6c3d8f2db6935!2sA108%20Adam%20Street%2C%20New%20York%2C%20NY%20535022!5e0!3m2!1sen!2sus!4v1639452340995!5m2!1sen!2sus"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+    
+            <!-- Contact Information Section -->
+            <div class="contact-discription">
+    
+                <!-- Address Info -->
+                <div class="info">
+                    <div><i class="fas fa-map-marker-alt"></i></div> <!-- Icon on the left -->
+                    <div class="info-text"> <!-- Text container on the right -->
+                        <h2>Our Address</h2>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+    
+                <!-- Email Info -->
+                <div class="info">
+                    <div><i class="fas fa-envelope"></i></div> <!-- Icon on the left -->
+                    <div class="info-text"> <!-- Text container on the right -->
+                        <h2>Email Us</h2>
+                        <p>contact@example.com</p>
+                    </div>
+                </div>
+    
+                <!-- Call Info -->
+                <div class="info">
+                    <div><i class="fas fa-phone-alt"></i></div> <!-- Icon on the left -->
+                    <div class="info-text"> <!-- Text container on the right -->
+                        <h2>Call Us</h2>
+                        <p>+1 5589 55488 55</p>
+                    </div>
+                </div>
+    
+                <!-- Opening Hours Info -->
+                <div class="info">
+                    <div><i class="fas fa-clock"></i></div> <!-- Icon on the left -->
+                    <div class="info-text"> <!-- Text container on the right -->
+                        <h2>Opening Hours</h2>
+                        <p><span>Mon-Sat:</span> 11AM - 23PM; <span>Sunday:</span> Closed</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <div class="form-group name-email">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            
+        </div>
+    </section>
+    
+    <!--------------------------------footer section----------------------------------->
+    <footer>
+        <div class="container">
+        <div class="about">
+            <div>
+                <img src="./images//favicon.png" alt="Mealify Logo" />
+                <h2 class="logo">Mealify<span>.</span></h2>
+            </div>
+                <p>
+                    Mealify is a restaurant landing page that offers a delicious dining
+                    experience to its customers.
+                </p>
+            <h3>Social Media</h3>
+            <ul class="social-links">
+                <li>
+                    <a href="https://twitter.com" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="subscription">
+            <div class="subscription-box">
+                <h3>Subscribe our Newsletter</h3>
+                <p>
+                Don't miss out on our latest menu updates and exclusive offers -
+                join our newsletter today and stay up-to-date with all things
+                Mealify!
+                </p>
+            <div class="sunscription-group">
+                <input type="email" placeholder="Enter Your Email Address" />
+                <button class="btn btn-main">
+                <i class="fa-solid fa-envelope"></i> Subscribe
+                </button>
+            </div>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+            <ul>
+                <li>
+                    <a href="">Menu</a>
+                </li>
+                <li>
+                    <a href="">Promo</a>
+                </li>
+                <li>
+                    <a href="">About Us</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">Testimonial</a>
+                </li>
+                <li>
+                    <a href="">Our Partners</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    <div class="contact-details">
+            <h3>Get in Touch</h3>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>A108 Adam Street, New York, NY 535022 </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:contact@example.com">contact@example.com</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+1 5589 55488 55">+1 5589 55488 55</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
